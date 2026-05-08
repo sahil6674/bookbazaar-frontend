@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BookBazaar — Frontend
 
-## Getting Started
+A book marketplace web app where students and anyone can buy and sell books, notes, and notebooks at affordable prices.
 
-First, run the development server:
+## 🚀 Live Demo
+Coming soon...
 
+## 🛠️ Tech Stack
+- **Next.js 15** — React framework with App Router
+- **TypeScript** — Type safe JavaScript
+- **Tailwind CSS** — Utility first styling
+- **Shadcn/UI** — Pre-built UI components
+- **React Context API** — Global state management
+
+## 📄 Pages
+- **Home** — Hero section, featured books, how it works
+- **Browse Books** — Search, filter by category, condition and price
+- **Book Detail** — Full listing info with seller details
+- **Sell a Book** — List your book with form validation
+- **Login / Register** — JWT based authentication
+- **Profile** — Manage listings and update personal info
+
+## ⚙️ Setup & Installation
+
+### Prerequisites
+- Node.js installed
+- Backend server running on port 5000
+
+### Steps
 ```bash
+# Clone the repository
+git clone https://github.com/sahil6674/bookbazaar-frontend.git
+
+# Go into the folder
+cd bookbazaar-frontend
+
+# Install dependencies
+npm install
+
+# Create environment file
+echo "NEXT_PUBLIC_API_URL=http://localhost:5000/api" > .env.local
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔗 Backend Repository
+[bookbazaar-backend](https://github.com/sahil6674/bookbazaar-backend)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 👤 Author
+**Sahil Saini**
+- GitHub: [@sahil6674](https://github.com/sahil6674)
+- LinkedIn: [sahil-saini](https://linkedin.com/in/sahil-saini-160b8a276)
